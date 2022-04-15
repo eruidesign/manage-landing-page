@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/main.css">
   
   <title>Frontend Mentor | Manage landing page</title>
 
@@ -16,9 +17,11 @@
 </head>
 <body>
 
-  <nav>
+  <div class="container mx-auto">
+
+  <nav class="flex justify-between">
     <img src="images/logo.svg" alt="Logo">
-    <ul>
+    <ul class="flex">
       <li><a href="#">Pricing</a></li>
       <li><a href="#">Product</a></li>
       <li><a href="#">About Us</a></li>
@@ -29,7 +32,7 @@
   </nav>
   
   <section>
-    Bring everyone together to build better products.
+    <h1 class="text-3xl">Bring everyone together to build better products.</h1>
 
   Manage makes it simple for software teams to plan day-to-day 
   tasks while keeping the larger team goals in view.
@@ -37,11 +40,11 @@
   Get Started
   </section>
   <section>
-    What’s different about Manage?
+    <h1 class="text-3xl">What’s different about Manage?</h1>
 
-    Manage provides all the functionality your team needs, without 
+    <p>Manage provides all the functionality your team needs, without 
     the complexity. Our software is tailor-made for modern digital 
-    product teams. 
+    product teams.</p>
 
     01
     Track company-wide progress
@@ -61,6 +64,7 @@
     track tasks and share documents. Manage offers an all-in-one team 
     productivity solution.
   </section>
+</div><!-- .container -->
   <section>
     What they’ve said
 
