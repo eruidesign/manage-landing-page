@@ -515,6 +515,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: grid;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -543,3 +547,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-red-900 {
+  --tw-text-opacity: 1;
+  color: rgb(127 29 29 / var(--tw-text-opacity));
+}
+
