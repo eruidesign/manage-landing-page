@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background-image: url(../images/bg-tablet-pattern.svg), url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 120% -10%, -30% 70%;
+    background-size: 700px 700px, 700px 700px;
+}

@@ -502,9 +502,46 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.-mt-20 {
+  margin-top: -5rem;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
@@ -515,20 +552,36 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: grid;
 }
 
-.w-1\/2 {
-  width: 50%;
+.h-\[50px\] {
+  height: 50px;
 }
 
-.grow {
-  flex-grow: 1;
+.h-\[30px\] {
+  height: 30px;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .justify-between {
@@ -543,6 +596,60 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 1rem;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.bg-BrightRed {
+  --tw-bg-opacity: 1;
+  background-color: hsl(12 88% 59% / var(--tw-bg-opacity));
+}
+
+.bg-VeryLightGray {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 98% / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-VeryDarkBlue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(233 12% 13% / var(--tw-bg-opacity));
+}
+
+.p-1\.5 {
+  padding: 0.375rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -553,8 +660,34 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2rem;
 }
 
-.text-red-900 {
-  --tw-text-opacity: 1;
-  color: rgb(127 29 29 / var(--tw-text-opacity));
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-BrightRed {
+  --tw-text-opacity: 1;
+  color: hsl(12 88% 59% / var(--tw-text-opacity));
+}
+
+body{
+  background-image: url(../images/bg-tablet-pattern.svg), url(../images/bg-tablet-pattern.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 120% -10%, -30% 70%;
+  background-size: 700px 700px, 700px 700px;
+}
+
+@media (min-width: 1024px) {
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
