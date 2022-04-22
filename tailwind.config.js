@@ -9,6 +9,9 @@ module.exports = {
         VeryDarkBlue: 'hsl(233, 12%, 13%)', 
         VeryPaleRed: 'hsl(13, 100%, 96%)', 
         VeryLightGray: 'hsl(0, 0%, 98%)'
+      },
+      fontFamily:{
+        'beVietnam':['BeVietnam','sans-serif'],
       }
     },
   },

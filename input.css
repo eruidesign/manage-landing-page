@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: BeVietnam;
+    src: url(../fonts/BeVietnamPro-Regular.ttf) format('truetype');
+	font-style: normal;
+}
+@font-face {
+    font-family: BeVietnam;
+    src: url(../fonts/BeVietnamPro-Italic) format('truetype');
+	font-style: italic;
+}
+
 body{
     background-image: url(../images/bg-tablet-pattern.svg), url(../images/bg-tablet-pattern.svg);
     background-repeat: no-repeat, no-repeat;

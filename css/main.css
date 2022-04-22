@@ -568,6 +568,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 4rem;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[50px\] {
+  width: 50px;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[150px\] {
+  width: 150px;
+}
+
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -598,6 +614,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-2 {
   gap: 0.5rem;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
 }
 
 .rounded-full {
@@ -650,6 +670,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: center;
 }
 
+.font-beVietnam {
+  font-family: BeVietnam, sans-serif;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -665,6 +689,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -673,6 +701,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-BrightRed {
   --tw-text-opacity: 1;
   color: hsl(12 88% 59% / var(--tw-text-opacity));
+}
+
+@font-face {
+  font-family: BeVietnam;
+
+  src: url(../fonts/BeVietnamPro-Regular.ttf) format('truetype');
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: BeVietnam;
+
+  src: url(../fonts/BeVietnamPro-Italic) format('truetype');
+
+  font-style: italic;
 }
 
 body{
